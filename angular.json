@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/new-apple-web",
+            "outputPath": "dist/spotify-web-clone",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "new-apple-web:build:production"
+              "browserTarget": "spotify-web-clone:build:production"
             },
             "development": {
-              "browserTarget": "new-apple-web:build:development"
+              "browserTarget": "spotify-web-clone:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "new-apple-web:build"
+            "browserTarget": "spotify-web-clone:build"
           }
         },
         "test": {

@@ -12,16 +12,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'new-apple-web'`, () => {
+  it(`should have as title 'spotify-web-clone'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('new-apple-web');
+    expect(app.title).toEqual('spotify-web-clone');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('new-apple-web app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('spotify-web-clone app is running!');
   });
 });
